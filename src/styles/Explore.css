@@ -1,0 +1,18 @@
+.explore-container {
+    background-color: #f3f4f6; /* Background color for the entire vertical height */
+    min-height: 100vh; /* Ensure that the container covers the entire viewport height */
+  }
+
+  .custom-button {
+    color: white; /* Font color */
+    background-color: #cbd5e1 !important; /* Background color */
+    border-color: #cbd5e1!important; /* Border color */
+  }
+  
+  .custom-button:hover {
+    color: #fff; /* Font color on hover */
+    background-color: #cbd5e1 !important; /* Background color on hover */
+    border-color: #cbd5e1 !important; /* Border color on hover */
+  }
+  
+  
