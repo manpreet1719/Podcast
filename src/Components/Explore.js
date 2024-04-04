@@ -6,9 +6,6 @@ import carddata from '../Data/CardsData.js'
 
 
 const Explore = () => {
-    const handleCardClick = (item) => {
-        console.log(item);
-    }
     return (
         <div className='explore-container'>
             <div className="container" >
@@ -20,31 +17,18 @@ const Explore = () => {
                         </button>
                     </div>
                 </div>
-                
-
                 <div class="container text-center">
                     <div class="row justify-content-center">
-                       
-                           {
-                    // carddata.map((item) => {
-                    //     return (
-                    //          <Card key={item.id} onClick = {() => handleCardClick(item)}/>
-                    //     );
-                    // })
-                    carddata.map((item) => (
-                        <div className="col" key={item.id}>
-                            <Card data={item}  />
-                        </div>
-                    ))
-                }
-                        
 
+                        {
+                            carddata.map((item) => (
+                                <div className="col" key={item.id}>
+                                    <Card data={item} />
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
-
-
-
-
             </div>
 
         </div>

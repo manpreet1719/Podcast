@@ -15,15 +15,15 @@ const Body = () => {
               <p>Imagine Your Favorite Online Dating App, But Instead Of Using It For Finding Dates, You're Booking Podcast Interviews. We Use The Same(ish) Technology For Automated Matching!</p>
             </div>
             <div class="text-center d-flex justify-content-center p-2">
-              <div className="card-body  d-flex align-items-center justify-content-center flex-column bg-light" style={{ width: '150px', height: '150px', marginRight:'5px'  , borderRadius: '15px' }}>
+              <div className="mobile_image card-body  d-flex align-items-center justify-content-center flex-column bg-light">
                 <MicIcon className="svg-icon" /> {/* Use the imported SVG icon */}
                 <h5 className="card-title">Interviews</h5>
               </div>
-              <div className="card-body  d-flex align-items-center justify-content-center flex-column bg-light" style={{ width: '150px', height: '150px' , marginRight:'5px' ,  borderRadius: '15px'}}>
+              <div className=" mobile_image card-body  d-flex align-items-center justify-content-center flex-column bg-light" >
                 <MicIcon className="svg-icon" /> {/* Use the imported SVG icon */}
                 <h5 className="card-title">Interviews</h5>
               </div>
-              <div className="card-body  d-flex align-items-center justify-content-center flex-column bg-light" style={{ width: '150px', height: '150px' , borderRadius: '5px' }}>
+              <div className=" mobile_image card-body  d-flex align-items-center justify-content-center flex-column bg-light" >
                 <MicIcon className="svg-icon" /> {/* Use the imported SVG icon */}
                 <h5 className="card-title">Interviews</h5>
               </div>
@@ -31,7 +31,7 @@ const Body = () => {
           </div>
         </div>
         <div className="mt-3 col-sm ">
-          <img src={micpic} alt='mic-ic' />
+          <img className="main_image" src={micpic} alt='mic-ic' />
         </div>
       </div>
       <hr className="w-100 bg-secondary mt-3" />
